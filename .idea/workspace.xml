@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8102822-7b6f-40f8-8917-8a8fef8481ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Algorithm/boltsAndNuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/boltsAndNuts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +47,22 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Arrays">
+  <component name="RunManager">
     <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Regex.Arrays" />
+      <module name="BoltsAndNuts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boltsAndNuts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.boltsAndNuts" />
       <module name="BoltsAndNuts" />
       <extension name="coverage">
         <pattern>
@@ -77,7 +90,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.boltsAndNuts" />
-        <item itemvalue="Application.Arrays" />
+        <item itemvalue="Application.boltsAndNuts" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +128,7 @@
       <workItem from="1585013633121" duration="1060000" />
       <workItem from="1585487163948" duration="769000" />
       <workItem from="1591409796592" duration="9211000" />
-      <workItem from="1591842073759" duration="299000" />
+      <workItem from="1591842073759" duration="1935000" />
     </task>
     <servers />
   </component>
@@ -123,22 +136,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1591615540116">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591845840806">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591615540116" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1591615540115">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1591845840806" />
+    <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591845839605">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591615540115" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1591615540114">
+    <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1591845839605" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1591845843618">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591615540114" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1591615540115">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591845843618" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1591845843617">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591615540115" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591845843617" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1591845843616">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591845843616" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1591845843618">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591845843618" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1591411408198">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
