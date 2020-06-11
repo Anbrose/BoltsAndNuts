@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8102822-7b6f-40f8-8917-8a8fef8481ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Regex/Regex/Arrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Regex/Regex/RegexTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Regex/url.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Regex/boltsAndNuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/boltsAndNuts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/boltsAndNuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/boltsAndNuts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +115,7 @@
       <workItem from="1585013633121" duration="1060000" />
       <workItem from="1585487163948" duration="769000" />
       <workItem from="1591409796592" duration="9211000" />
-      <workItem from="1591842073759" duration="207000" />
+      <workItem from="1591842073759" duration="299000" />
     </task>
     <servers />
   </component>

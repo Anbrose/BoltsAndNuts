@@ -41,7 +41,6 @@ public class boltsAndNuts {
             while (nuts[i] <= Bolts[begin] && i <= end){
                 if(nuts[i] == Bolts[begin]){
                     details(i, j, index);
-                    System.out.println("nuts[i]与bolts[begin]相等，交换");
                     printoutArray("(Nuts) Swap before", nuts);
                     swap(nuts, begin, i);
                     printoutArray("(Nuts) Swap after ", nuts);
@@ -52,7 +51,6 @@ public class boltsAndNuts {
             while (nuts[j] >= Bolts[begin] && j >= begin){
                 if(nuts[j] == Bolts[begin]){
                     details(i, j, index);
-                    System.out.println("nuts[j]与bolts[begin]相等");
                     printoutArray("(Nuts) Swap before", nuts);
                     swap(nuts, j, end);
                     printoutArray("(Nuts) Swap after ", nuts);
@@ -72,7 +70,6 @@ public class boltsAndNuts {
         if(i > end) i--;
         if(j < begin) j++;
         details(i, j, index);
-        System.out.println("???，交换");
         printoutArray("(Nuts) Swap before", nuts);
         swap(nuts, i, j);
         printoutArray("(Nuts) Swap after ", nuts);
@@ -81,7 +78,6 @@ public class boltsAndNuts {
         {
             index = j;
             details(i, j, index);
-            System.out.println("Bolts[begin]与nuts[begin]相等，交换");
             printoutArray("(Nuts) Swap before", nuts);
             swap(nuts,j,begin);
             printoutArray("(Nuts) Swap after ", nuts);
@@ -90,7 +86,6 @@ public class boltsAndNuts {
         {
             index= i;
             details(i, j, index);
-            System.out.println("Bolts[begin]与nuts[end]相等，交换");
             printoutArray("(Nuts) Swap before", nuts);
             swap(nuts,end,i);
             printoutArray("(Nuts) Swap after ", nuts);
@@ -102,18 +97,15 @@ public class boltsAndNuts {
             while (i <= end && Bolts[i] < nuts[index]) i++;
             while (j > begin && Bolts[j] > nuts[index]) j--;
             details(i, j, index);
-            System.out.println("Bolts[i]>=nuts[index] &&  Bolts[j] <= nuts[index]，交换");
             printoutArray("(Bolts) Swap before", Bolts);
             swap(Bolts, i, j);
             printoutArray("(Bolts) Swap after ", Bolts);
         }
         details(i, j, index);
-        System.out.println("i,j交换");
         printoutArray("(Bolts) Swap before", Bolts);
         swap(Bolts,i,j);
         printoutArray("(Bolts) Swap after ", Bolts);
         details(i, j, index);
-        System.out.println("j,begin交换");
         printoutArray("(Bolts) Swap before", Bolts);
         swap(Bolts, j, begin);
         printoutArray("(Bolts) Swap after ", Bolts);
@@ -128,7 +120,7 @@ public class boltsAndNuts {
     }
 
     public static void details(int i, int j, int index){
-        System.out.println("i的值为" + String.valueOf(i) + " j的值为" + String.valueOf(j) + " index的值为"+ String.valueOf(index));
+        //System.out.println("i : " + String.valueOf(i) + " j : " + String.valueOf(j) + " index的值为"+ String.valueOf(index));
     }
 
     public static void printoutArray(String message, int[] array){
